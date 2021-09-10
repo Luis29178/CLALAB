@@ -1,0 +1,35 @@
+Command line:
+   HalfAdder_HalfAdder_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58755
+
+Fri Sep 10 14:14:50 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5151.47 Meg
+
+ Total Signals          : 39
+ Total Nets             : 29
+ Total Signal Drivers   : 4
+ Total Blocks           : 7
+ Total Primitive Blocks : 5
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 512
+Total Line Count : 15
+
+** Failure:Simulation Finished
+User(VHDL) Code Called Simulation Stop
+In process HalfAdder_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5466.04 Meg
+
+Fri Sep 10 14:15:20 2021
+

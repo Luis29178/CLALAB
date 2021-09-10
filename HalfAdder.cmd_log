@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl HalfAdder_drc.vhf -w {D:/Local Work/ClaBaseject/HalfAdder.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym HalfAdder {D:/Local Work/ClaBaseject/HalfAdder.sch} {D:/Local Work/ClaBaseject/HalfAdder.sym} 

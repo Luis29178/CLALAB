@@ -1,2 +1,11 @@
 sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl HAdelay_drc.vhf -w C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sch 
 sch2sym -intstyle ise -family spartan6 -refsym HAdelay C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sch C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sym 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl HAdelay_drc.vhf -w {D:/Local Work/ClaBaseject/HAdelay.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym HAdelay {D:/Local Work/ClaBaseject/HAdelay.sch} {D:/Local Work/ClaBaseject/HAdelay.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl HAdelay_drc.vhf -w {D:/Local Work/ClaBaseject/HAdelay.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym HAdelay {D:/Local Work/ClaBaseject/HAdelay.sch} {D:/Local Work/ClaBaseject/HAdelay.sym} 
+xst -intstyle ise -ifn "D:/Local Work/ClaBaseject/HAdelay.xst" -ofn "D:/Local Work/ClaBaseject/HAdelay.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 "HAdelay.ngc" HAdelay.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o HAdelay_map.ncd HAdelay.ngd HAdelay.pcf 
+par -w -intstyle ise -ol high -mt off HAdelay_map.ncd HAdelay.ncd HAdelay.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml HAdelay.twx HAdelay.ncd -o HAdelay.twr HAdelay.pcf 

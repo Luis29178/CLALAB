@@ -1,1 +1,3 @@
 sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FAdelay_drc.vhf -w C:/Users/jseitz/Documents/DLO/CLA/FAdelay.sch 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FAdelay_drc.vhf -w {D:/Local Work/ClaBaseject/FAdelay.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym FAdelay {D:/Local Work/ClaBaseject/FAdelay.sch} {D:/Local Work/ClaBaseject/FAdelay.sym} 

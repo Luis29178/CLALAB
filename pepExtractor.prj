@@ -1,1 +1,2 @@
-work	"XOR2Delay.vhd"
+work	"FAdelay.vhd"
+work	"OR2Delay.vhd"

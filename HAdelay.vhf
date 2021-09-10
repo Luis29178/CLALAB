@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : HAdelay.vhf
--- /___/   /\     Timestamp : 06/15/2020 11:12:26
+-- /___/   /\     Timestamp : 09/10/2021 14:41:59
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl C:/Users/johns/Desktop/ClaBaseProject/HAdelay.vhf -w C:/Users/johns/Desktop/ClaBaseProject/HAdelay.sch
+--Command: sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl "D:/Local Work/ClaBaseject/HAdelay.vhf" -w "D:/Local Work/ClaBaseject/HAdelay.sch"
 --Design Name: HAdelay
 --Device: spartan6
 --Purpose:
@@ -26,35 +26,35 @@ library UNISIM;
 use UNISIM.Vcomponents.ALL;
 
 entity HAdelay is
-   port ( Xin      : in    std_logic; 
-          Yin      : in    std_logic; 
-          CARRYout : out   std_logic; 
-          SUMout   : out   std_logic);
+   port ( X    : in    std_logic; 
+          Y    : in    std_logic; 
+          Cout : out   std_logic; 
+          S    : out   std_logic);
 end HAdelay;
 
 architecture BEHAVIORAL of HAdelay is
-   component AND2Delay
-      port ( I0 : in    std_logic; 
-             I1 : in    std_logic; 
-             O  : out   std_logic);
-   end component;
-   
    component XOR2Delay
       port ( I0 : in    std_logic; 
              I1 : in    std_logic; 
              O  : out   std_logic);
    end component;
    
-begin
-   XLXI_1 : AND2Delay
-      port map (I0=>Xin,
-                I1=>Yin,
-                O=>CARRYout);
+   component AND2Delay
+      port ( I0 : in    std_logic; 
+             I1 : in    std_logic; 
+             O  : out   std_logic);
+   end component;
    
-   XLXI_3 : XOR2Delay
-      port map (I0=>Xin,
-                I1=>Yin,
-                O=>SUMout);
+begin
+   XLXI_8 : XOR2Delay
+      port map (I0=>X,
+                I1=>Y,
+                O=>S);
+   
+   XLXI_9 : AND2Delay
+      port map (I0=>X,
+                I1=>Y,
+                O=>Cout);
    
 end BEHAVIORAL;
 
