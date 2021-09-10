@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl HAdelay_drc.vhf -w C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sch 
+sch2sym -intstyle ise -family spartan6 -refsym HAdelay C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sch C:/Users/jseitz/Documents/DLO/CLA/HAdelay.sym 

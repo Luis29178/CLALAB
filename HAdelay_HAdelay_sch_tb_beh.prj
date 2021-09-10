@@ -1,0 +1,4 @@
+vhdl work "XOR2Delay.vhd"
+vhdl work "AND2Delay.vhd"
+vhdl work "HAdelay.vhf"
+vhdl work "HAdelay_tb.vhd"

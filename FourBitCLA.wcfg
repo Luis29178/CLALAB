@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/jseitz/Documents/DLO/CLA/FourBitCLA_FourBitCLA_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fourbitcla_fourbitcla_sch_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/c0out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c0out</obj_property>
+      <obj_property name="ObjectShortName">c0out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/sum0out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum0out</obj_property>
+      <obj_property name="ObjectShortName">sum0out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/c1out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c1out</obj_property>
+      <obj_property name="ObjectShortName">c1out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/sum1out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum1out</obj_property>
+      <obj_property name="ObjectShortName">sum1out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/c2out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c2out</obj_property>
+      <obj_property name="ObjectShortName">c2out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/sum2out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum2out</obj_property>
+      <obj_property name="ObjectShortName">sum2out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/c3out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c3out</obj_property>
+      <obj_property name="ObjectShortName">c3out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/sum3out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum3out</obj_property>
+      <obj_property name="ObjectShortName">sum3out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/c4out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c4out</obj_property>
+      <obj_property name="ObjectShortName">c4out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/carryin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carryin</obj_property>
+      <obj_property name="ObjectShortName">carryin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/x0in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x0in</obj_property>
+      <obj_property name="ObjectShortName">x0in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/x1in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x1in</obj_property>
+      <obj_property name="ObjectShortName">x1in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/x2in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x2in</obj_property>
+      <obj_property name="ObjectShortName">x2in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/x3in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">x3in</obj_property>
+      <obj_property name="ObjectShortName">x3in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/y0in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y0in</obj_property>
+      <obj_property name="ObjectShortName">y0in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/y1in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y1in</obj_property>
+      <obj_property name="ObjectShortName">y1in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/y2in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y2in</obj_property>
+      <obj_property name="ObjectShortName">y2in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fourbitcla_fourbitcla_sch_tb/y3in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">y3in</obj_property>
+      <obj_property name="ObjectShortName">y3in</obj_property>
+   </wvobject>
+</wave_config>

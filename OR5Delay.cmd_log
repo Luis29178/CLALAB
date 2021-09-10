@@ -1,0 +1,2 @@
+vhdtdtfi -lib work OR5Delay.vhd -prj CLA -o OR5Delay.spl -module OR5Delay -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 OR5Delay.spl C:/Users/jseitz/Documents/DLO/CLA/OR5Delay.sym 
