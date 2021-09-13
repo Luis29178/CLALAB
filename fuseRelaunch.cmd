@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_isim_beh.exe" -prj "D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_beh.prj" "work.FAdelay_FAdelay_sch_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.exe" -prj "D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_beh.prj" "work.CLA_FourBit_CLA_FourBit_sch_tb" 

@@ -1,15 +1,15 @@
 Command line:
    FAdelay_FAdelay_sch_tb_isim_beh.exe
      -simmode  gui
-     -simrunnum  0
-     -socket  49368
+     -simrunnum  1
+     -socket  57643
 
-Fri Sep 10 14:42:05 2021
+Mon Sep 13 14:00:55 2021
 
 
  Elaboration Time: 0.03125 sec
 
- Current Memory Usage: 5150.95 Meg
+ Current Memory Usage: 5150.87 Meg
 
  Total Signals          : 61
  Total Nets             : 33
@@ -27,9 +27,9 @@ In process FAdelay_tb.vhd:tb
  
 
 
- Total Simulation Time: 0.15625 sec
+ Total Simulation Time: 0.125 sec
 
- Current Memory Usage: 4679.09 Meg
+ Current Memory Usage: 4993.59 Meg
 
-Fri Sep 10 14:45:12 2021
+Mon Sep 13 14:02:26 2021
 

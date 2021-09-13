@@ -5,5 +5,65 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 169: &lt;<arg fmt="%s" index="1">or2delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 183: &lt;<arg fmt="%s" index="1">and3delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 194: &lt;<arg fmt="%s" index="1">or3delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 208: &lt;<arg fmt="%s" index="1">and4delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 215: &lt;<arg fmt="%s" index="1">and3delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 226: &lt;<arg fmt="%s" index="1">or4delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 237: &lt;<arg fmt="%s" index="1">and4delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 244: &lt;<arg fmt="%s" index="1">and5delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 252: &lt;<arg fmt="%s" index="1">and3delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="89" delta="unknown" >"D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 263: &lt;<arg fmt="%s" index="1">or5delay</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">169</arg>. Instance <arg fmt="%s" index="3">or2delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">183</arg>. Instance <arg fmt="%s" index="3">and3delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">194</arg>. Instance <arg fmt="%s" index="3">or3delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">208</arg>. Instance <arg fmt="%s" index="3">and4delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">215</arg>. Instance <arg fmt="%s" index="3">and3delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">226</arg>. Instance <arg fmt="%s" index="3">or4delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">237</arg>. Instance <arg fmt="%s" index="3">and4delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">244</arg>. Instance <arg fmt="%s" index="3">and5delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">252</arg>. Instance <arg fmt="%s" index="3">and3delay</arg> is unbound
+</msg>
+
+<msg type="warning" file="Simulator" num="648" delta="unknown" >&quot;<arg fmt="%s" index="1">D:/Local Work/ClaBaseject/CLA_FourBit.vhf</arg>&quot; Line <arg fmt="%d" index="2">263</arg>. Instance <arg fmt="%s" index="3">or5delay</arg> is unbound
+</msg>
+
 </messages>
 

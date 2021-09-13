@@ -1,0 +1,35 @@
+Command line:
+   RCA4B_RCA4B_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  58933
+
+Mon Sep 13 14:05:07 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.86 Meg
+
+ Total Signals          : 180
+ Total Nets             : 54
+ Total Signal Drivers   : 29
+ Total Blocks           : 37
+ Total Primitive Blocks : 23
+ Total Processes        : 21
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 537
+Total Line Count : 32
+
+** Failure:Simulation Finished
+User(VHDL) Code Called Simulation Stop
+In process RC4B_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4679 Meg
+
+Mon Sep 13 14:08:35 2021
+

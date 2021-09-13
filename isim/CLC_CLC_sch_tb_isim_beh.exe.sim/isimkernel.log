@@ -1,0 +1,35 @@
+Command line:
+   CLC_CLC_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56459
+
+Mon Sep 13 14:23:59 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.87 Meg
+
+ Total Signals          : 53
+ Total Nets             : 33
+ Total Signal Drivers   : 8
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 6
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 516
+Total Line Count : 32
+
+** Failure:Simulation Finished
+User(VHDL) Code Called Simulation Stop
+In process CLC_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4993.58 Meg
+
+Mon Sep 13 14:25:32 2021
+

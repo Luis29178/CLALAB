@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl RCA4B_drc.vhf -w {D:/Local Work/ClaBaseject/RCA4B.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym RCA4B {D:/Local Work/ClaBaseject/RCA4B.sch} {D:/Local Work/ClaBaseject/RCA4B.sym} 

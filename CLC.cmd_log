@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym CLC {D:/Local Work/ClaBaseject/CLC.sch} {D:/Local Work/ClaBaseject/CLC.sym} 
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl CLC_drc.vhf -w {D:/Local Work/ClaBaseject/CLC.sch} 

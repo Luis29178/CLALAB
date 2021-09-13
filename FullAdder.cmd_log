@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan6 -flat -suppress -vhdl FullAdder_drc.vhf -w {D:/Local Work/ClaBaseject/FullAdder.sch} 
+sch2sym -intstyle ise -family spartan6 -w -refsym FullAdder {D:/Local Work/ClaBaseject/FullAdder.sch} {D:/Local Work/ClaBaseject/FullAdder.sym} 

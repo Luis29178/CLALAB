@@ -1,0 +1,5 @@
+vhdl work "XOR2Delay.vhd"
+vhdl work "AND2Delay.vhd"
+vhdl work "HAdelay.vhf"
+vhdl work "CLA_FourBit.vhf"
+vhdl work "CLA_FourBit_tb.vhd"

@@ -1,0 +1,35 @@
+Command line:
+   CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64685
+
+Mon Sep 13 15:52:28 2021
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.94 Meg
+
+ Total Signals          : 171
+ Total Nets             : 65
+ Total Signal Drivers   : 34
+ Total Blocks           : 31
+ Total Primitive Blocks : 24
+ Total Processes        : 22
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 548
+Total Line Count : 33
+
+** Failure:Simulation Finished
+User(VHDL) Code Called Simulation Stop
+In process CLA_FourBit_tb.vhd:tb 
+ 
+
+
+ Total Simulation Time: 0.34375 sec
+
+ Current Memory Usage: 4679.08 Meg
+
+Mon Sep 13 15:56:13 2021
+

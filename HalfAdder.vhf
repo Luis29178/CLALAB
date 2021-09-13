@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : HalfAdder.vhf
--- /___/   /\     Timestamp : 09/10/2021 14:23:38
+-- /___/   /\     Timestamp : 09/10/2021 20:06:55
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

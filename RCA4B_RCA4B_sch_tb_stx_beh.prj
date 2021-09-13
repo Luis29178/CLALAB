@@ -1,0 +1,7 @@
+vhdl isim_temp "XOR2Delay.vhd"
+vhdl isim_temp "AND2Delay.vhd"
+vhdl isim_temp "OR2Delay.vhd"
+vhdl isim_temp "HAdelay.vhf"
+vhdl isim_temp "FAdelay.vhf"
+vhdl isim_temp "RCA4B.vhf"
+vhdl isim_temp "RC4B_tb.vhd"

@@ -1,29 +1,48 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_isim_beh.exe -prj D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_beh.prj work.FAdelay_FAdelay_sch_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.exe -prj D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_beh.prj work.CLA_FourBit_CLA_FourBit_sch_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 12
 Turning on mult-threading, number of parallel sub-compilation jobs: 24 
 Determining compilation order of HDL files
 Parsing VHDL file "D:/Local Work/ClaBaseject/XOR2Delay.vhd" into library work
 Parsing VHDL file "D:/Local Work/ClaBaseject/AND2Delay.vhd" into library work
-Parsing VHDL file "D:/Local Work/ClaBaseject/OR2Delay.vhd" into library work
 Parsing VHDL file "D:/Local Work/ClaBaseject/HAdelay.vhf" into library work
-Parsing VHDL file "D:/Local Work/ClaBaseject/FAdelay.vhf" into library work
-Parsing VHDL file "D:/Local Work/ClaBaseject/FAdelay_tb.vhd" into library work
+Parsing VHDL file "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" into library work
+Parsing VHDL file "D:/Local Work/ClaBaseject/CLA_FourBit_tb.vhd" into library work
 Starting static elaboration
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 169: <or2delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 183: <and3delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 194: <or3delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 208: <and4delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 215: <and3delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 226: <or4delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 237: <and4delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 244: <and5delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 252: <and3delay> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 263: <or5delay> remains a black-box since it has no binding entity.
 Completed static elaboration
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 169. Instance or2delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 183. Instance and3delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 194. Instance or3delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 208. Instance and4delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 215. Instance and3delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 226. Instance or4delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 237. Instance and4delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 244. Instance and5delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 252. Instance and3delay is unbound
+WARNING:Simulator:648 - "D:/Local Work/ClaBaseject/CLA_FourBit.vhf" Line 263. Instance or5delay is unbound
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
 Compiling package vcomponents
-Compiling architecture behavioral of entity OR2Delay [or2delay_default]
-Compiling architecture behavioral of entity XOR2Delay [xor2delay_default]
 Compiling architecture behavioral of entity AND2Delay [and2delay_default]
-Compiling architecture behavioral of entity HAdelay_MUSER_FAdelay [hadelay_muser_fadelay_default]
-Compiling architecture behavioral of entity FAdelay [fadelay_default]
-Compiling architecture behavioral of entity fadelay_fadelay_sch_tb
+Compiling architecture buf_v of entity BUF [buf_default]
+Compiling architecture behavioral of entity CarryLookAheadLogicBlock_MUSER_CLA_FourBit [carrylookaheadlogicblock_muser_c...]
+Compiling architecture behavioral of entity XOR2Delay [xor2delay_default]
+Compiling architecture behavioral of entity HAdelay_MUSER_CLA_FourBit [hadelay_muser_cla_fourbit_defaul...]
+Compiling architecture behavioral of entity CLA_FourBit [cla_fourbit_default]
+Compiling architecture behavioral of entity cla_fourbit_cla_fourbit_sch_tb
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 15 VHDL Units
-Built simulation executable D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_isim_beh.exe
-Fuse Memory Usage: 48248 KB
-Fuse CPU Usage: 437 ms
+Compiled 17 VHDL Units
+Built simulation executable D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.exe
+Fuse Memory Usage: 48652 KB
+Fuse CPU Usage: 2218 ms

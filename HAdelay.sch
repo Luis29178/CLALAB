@@ -10,6 +10,7 @@
         <signal name="Y" />
         <signal name="S" />
         <signal name="Cout" />
+        <signal name="XLXN_1" />
         <port polarity="Input" name="X" />
         <port polarity="Input" name="Y" />
         <port polarity="Output" name="S" />
@@ -57,14 +58,14 @@
             <wire x2="944" y1="1248" y2="1248" x1="832" />
         </branch>
         <iomarker fontsize="28" x="720" y="960" name="X" orien="R180" />
-        <iomarker fontsize="28" x="720" y="1024" name="Y" orien="R180" />
         <branch name="S">
             <wire x2="1376" y1="960" y2="960" x1="1344" />
         </branch>
         <iomarker fontsize="28" x="1376" y="960" name="S" orien="R0" />
         <branch name="Cout">
-            <wire x2="1360" y1="1184" y2="1184" x1="1328" />
+            <wire x2="1344" y1="1184" y2="1184" x1="1328" />
         </branch>
-        <iomarker fontsize="28" x="1360" y="1184" name="Cout" orien="R0" />
+        <iomarker fontsize="28" x="720" y="1024" name="Y" orien="R180" />
+        <iomarker fontsize="28" x="1344" y="1184" name="Cout" orien="R0" />
     </sheet>
 </drawing>

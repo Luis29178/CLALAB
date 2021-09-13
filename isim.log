@@ -1,5 +1,5 @@
 ISim log file
-Running: D:\Local Work\ClaBaseject\FAdelay_FAdelay_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Local Work/ClaBaseject/FAdelay_FAdelay_sch_tb_isim_beh.wdb 
+Running: D:\Local Work\ClaBaseject\CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/Local Work/ClaBaseject/CLA_FourBit_CLA_FourBit_sch_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -14,6 +14,6 @@ Finished circuit initialization process.
 
 ** Failure:Simulation Finished
 User(VHDL) Code Called Simulation Stop
-In process FAdelay_tb.vhd:tb 
+In process CLA_FourBit_tb.vhd:tb 
  
 INFO: Simulator is stopped.
